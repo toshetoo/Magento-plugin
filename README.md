@@ -10,7 +10,7 @@
 3- Now upgrade the setup:
   php bin/magento setup:upgrade            
 
-4- At last,  clean the cache:
+4- At last,  clean the cache:         
   php bin/magento cache:clean      
   php bin/magento cache:flush        
 
