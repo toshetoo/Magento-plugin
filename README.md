@@ -1,6 +1,6 @@
 # Magento-plugin
 
-1. Paste to htdocs\magento-name\app\code
+1. Paste to htdocs\magento-name\app\code    
 2 - Check the status of your module:
   php bin/magento module:status 
   
