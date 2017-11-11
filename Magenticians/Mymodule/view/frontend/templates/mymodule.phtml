@@ -1,3 +1,64 @@
+<style>
+#images-box {
+	height:600px;
+	padding-left: 95px;
+    margin: 0px auto;
+    position: relative;
+    top: 70px;
+}
+ 
+.image-lightbox img {
+    /* Inherit the width and height from the parent element */
+    width: 420px;
+    height: 200px;
+	margin-left:10px;
+}
+.image-lightbox img {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    margin-bottom:20px;
+}
+
+.image-lightbox img:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+ 
+}
+.holder {
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+ 
+
+</style>
 <h2>
 <?php echo $block->getMymodule(); ?>
 </h2>
+
+<div id="images-box">
+	<div class="holder">
+		<div class="image-lightbox">
+			<img src="https://static.photocdn.pt/images/articles/2017/04/28/iStock-516651882.jpg" alt="earth!">
+		</div>
+	</div>
+	<div class="holder">
+		<div class="image-lightbox">
+			<img src="https://static.pexels.com/photos/132037/pexels-photo-132037.jpeg" alt="earth!">
+		</div>
+	</div>
+	<div class="holder">
+		<div class="image-lightbox">
+			<img src="https://iso.500px.com/wp-content/uploads/2014/09/2048-13-1500x1000.jpg" alt="earth!">
+		</div>
+	</div>
+	<div class="holder">
+		<div class="image-lightbox">
+			<img src="https://images.pexels.com/photos/66874/landscape-meadow-field-mountains-66874.jpeg?h=350&auto=compress&cs=tinysrgb" alt="earth!">
+		</div>
+	</div>
+
+</div>
