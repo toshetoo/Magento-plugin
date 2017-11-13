@@ -25,7 +25,7 @@ parent::__construct($context);
 */
 public function execute()
 {
-return $this->resultPageFactory->create();
+    return $this->resultPageFactory->create();
 }
 }
 ?>

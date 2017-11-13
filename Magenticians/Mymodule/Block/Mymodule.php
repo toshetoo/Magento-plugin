@@ -13,5 +13,16 @@ public function getMymodule()
 {
 return 'Module Cretaed Successfully';
 }
+
+public function getImages() {
+    $images = array(
+        'https://www.w3schools.com/howto/img_nature_wide.jpg',
+        'https://www.w3schools.com/howto/img_fjords_wide.jpg',
+        'https://www.w3schools.com/howto/img_mountains_wide.jpg',
+        'https://www.w3schools.com/howto/img_lights_wide.jpg'
+    );
+
+    return $images;
+}
 }
 ?>
